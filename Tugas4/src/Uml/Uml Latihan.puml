@@ -1,0 +1,15 @@
+@startuml
+class Student_Latihan {
+  - name : String
+  + getName() : String
+}
+
+class StudentRepository_Latihan {
+  - students : List
+  + add(Student)
+  + searchByName(String) : List
+  + paginate(int,int) : List
+}
+
+StudentRepository_Latihan --> Student_Latihan
+@enduml

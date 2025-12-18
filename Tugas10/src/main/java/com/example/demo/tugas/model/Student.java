@@ -1,0 +1,31 @@
+package com.example.demo.tugas.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Student {
+
+    @Id
+    private String npm;
+
+    private String name;
+    private double gpa;
+
+    public Student() {}
+
+    public Student(String npm, String name, double gpa) {
+        this.npm = npm;
+        this.name = name;
+        this.gpa = gpa;
+    }
+
+    public String getNpm() { return npm; }
+    public void setNpm(String npm) { this.npm = npm; }
+
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+
+    public double getGpa() { return gpa; }
+    public void setGpa(double gpa) { this.gpa = gpa; }
+}

@@ -1,0 +1,10 @@
+@startuml
+class ProductCatalog {
+    - Map<String, Product> catalog
+
+    + add(Product p): void
+    + update(Product p): void
+    + remove(String id): void
+    + get(String id): Product
+}
+@enduml

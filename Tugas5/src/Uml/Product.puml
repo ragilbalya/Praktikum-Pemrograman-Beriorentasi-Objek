@@ -1,0 +1,14 @@
+@startuml
+class Product {
+    - String id
+    - String name
+    - double price
+
+    + Product(String id, String name, double price)
+    + getId(): String
+    + getName(): String
+    + getPrice(): double
+    + setName(String name): void
+    + setPrice(double price): void
+}
+@enduml

@@ -1,0 +1,12 @@
+com\example\studentapp\model\RegularStudent.class
+com\example\studentapp\repository\InMemoryStudentRepository.class
+com\example\studentapp\repository\StudentRepository.class
+com\example\studentapp\controller\MainController.class
+com\example\studentapp\factory\StudentFactory.class
+com\example\studentapp\MainApp.class
+com\example\studentapp\factory\StudentFactory$1.class
+com\example\studentapp\service\StudentService.class
+com\example\studentapp\factory\StudentFactory$Type.class
+com\example\studentapp\model\ExchangeStudent.class
+com\example\studentapp\model\ScholarshipStudent.class
+com\example\studentapp\model\Student.class

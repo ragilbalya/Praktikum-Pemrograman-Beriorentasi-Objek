@@ -1,0 +1,19 @@
+@startuml
+class Student_Tugas {
+  - id : int
+  - name : String
+  + getId() : int
+  + getName() : String
+}
+
+class StudentRepository_Tugas {
+  - students : List
+  - logs : List
+  + add(Student)
+  + update(int,String)
+  + remove(int)
+  + getLogs() : List
+}
+
+StudentRepository_Tugas --> Student_Tugas
+@enduml
